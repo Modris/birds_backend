@@ -1,4 +1,4 @@
-package com.modris.Tests;
+package com.modris.Tests.services;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -32,7 +32,7 @@ public class BirdsServiceTest extends TestContainerBase{
 	
 	@Test
 	@Transactional
-	@DisplayName("Check first element data")
+	@DisplayName("Happy flow. Check first element data")
 	void firstElementTest() {
 		Optional<Bird> birdOpt =birdService.findById(1L);
 		Bird bird = birdOpt.get();
@@ -50,7 +50,7 @@ public class BirdsServiceTest extends TestContainerBase{
 	
 	@Test
 	@Transactional
-	@DisplayName("Check last element data")
+	@DisplayName("Happy flow. Check last element data")
 	void lastElementTest() {
 		Optional<Bird> birdOpt =birdService.findById(40L);
 		Bird bird = birdOpt.get();
@@ -66,6 +66,14 @@ public class BirdsServiceTest extends TestContainerBase{
 				);
 	}
 	
-	
+	@Test
+	@Transactional
+	@DisplayName("Negative flow.Check non-existent element.")
+	void negativeFlowTest() {
+		Optional<Bird> birdOpt =birdService.findById(999999L);
+		
+		 assertEquals(false,birdOpt.isPresent(),()->"There should be no such bird with id 999999L");
+			
+	}
 	
 }

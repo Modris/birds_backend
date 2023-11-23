@@ -25,4 +25,9 @@ public class DetailsService {
 		return detailsRepository.findById(id);
 	}
 	
+	public List<String> findByBirdsIdReturnStringNameOnly(Long birdsId){
+		
+		return detailsRepository.findByBirdsIdReturnStringNameOnly(birdsId);
+	}
+	
 }

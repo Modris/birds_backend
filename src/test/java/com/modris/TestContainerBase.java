@@ -32,7 +32,7 @@ public class TestContainerBase {
 
 	 
 	@Test
-	@DisplayName("Test")
+	@DisplayName("Successfully launched TestContainersBase.")
 	void beforeAll() {
 
 	}

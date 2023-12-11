@@ -11,7 +11,7 @@ import com.modris.repositories.DetailsRepository;
 @Service
 public class DetailsService {
 
-	public DetailsRepository detailsRepository;
+	private final DetailsRepository detailsRepository;
 	
 	public DetailsService(DetailsRepository detailsRepository) {
 		this.detailsRepository = detailsRepository;

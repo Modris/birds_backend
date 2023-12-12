@@ -65,4 +65,4 @@ build.xml
 
 *.log
 
-.properties
+*.properties

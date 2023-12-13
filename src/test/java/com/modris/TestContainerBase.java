@@ -20,7 +20,7 @@ public class TestContainerBase {
 	@Container
 	@ServiceConnection
 	public static MySQLContainer<?> mysql = new MySQLContainer<>(
-		    DockerImageName.parse("modrisl/custom-mysql2:version1.0")
+		    DockerImageName.parse("modrisl/custom-mysql2:version1.1")
 		        .asCompatibleSubstituteFor("mysql"))
 				.withDatabaseName("putni")
 				.withUsername("root")

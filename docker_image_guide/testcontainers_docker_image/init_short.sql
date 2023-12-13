@@ -61,7 +61,7 @@ INSERT INTO birds VALUES(NULL, "Baltā Cielava", "White Wagtail","Motacilla alba
 							"Ziemeļu gulbis ir skaļākais no Eiropas gulbjiem un agresīvākais, cīnoties par ligzdošanas vietu",
 							"Ziemeļu gulbis ligzdu būvē no ūdensaugiem un sakneņiem ūdenstilpēs: ierasti uz saliņām zem krūma vai koka vai arī sēklī samērā atklāti."),
 												  
-							(NULL, "Meža pīle", "Mallard","Anas platyrhynchos platyrhynchos",2,7,
+							(NULL, "Meža pīle", "Mallard","Anas platyrhynchos",2,7,
 							"Vasarās meža pīļu tēviņi ir līdzīgi mātītēm, jo ir zaudējuši izteiksmīgo un košo apspalvojumu.",
 							"Barojoties gan ar augu lapām un dzinumiem, gan ar vabolītēm, spārēm, gliemjiem, meža pīle parasti nenirst."),
                       
@@ -77,7 +77,7 @@ INSERT INTO birds VALUES(NULL, "Baltā Cielava", "White Wagtail","Motacilla alba
 							"Dzērve ēd dzērvenes?Jā, ogas tai garšo, taču dzērve ir visēdāja un labprāt mielojas ar kukaiņiem, ūdensaugiem, abiniekiem un citām “uzkodām”.",
 							"Spārni grezni izplešas, kad dzērves metas dzērvju riesta dejā ar kaismīgiem saucieniem. Dzērvju klaigas ir līdzīgas trompetes skaņām."),
 
-							(NULL, "Sudrabkaija", "(European) Herring Gull","Larus argentatus argentatus",3,1,
+							(NULL, "Sudrabkaija", "(European) Herring Gull","Larus argentatus",3,1,
 							"Sudrabkaijas ir lieli un ļoti trokšņaini putni, kuri sastopami pārsvarā piejūras pilsētās un ciemos, kur labprāt ligzdo uz ēku jumtiem",
 							"Sudrabkaija pieauguša putna spalvu tērpu iegūst trīs gadu vecumā, pakāpeniski no gaiši pelēka jaunā putna pārtopot baltā pieaugušā sudrabkaijā."),
                      
@@ -89,7 +89,7 @@ INSERT INTO birds VALUES(NULL, "Baltā Cielava", "White Wagtail","Motacilla alba
 							"Peļu klijāns ir visbiežāk sastopamais plēsīgais putns Latvijā, kurš lidojot plivinās uz vietas, lai saskatītu medījumu, un planējot tur spārnus lēzena V burta veidā.",
 							"Lai izpelnītos mātītes apbrīnu, peļu klijānu tēviņš veic akrobātisku lidojumu: uzlido augstu debesīs un tad strauji pikē lejup ligzdas virzienā, griežoties pa spirāli."),
 
-							(NULL, "Vistu vanags", "Northern Goshawk","Accipiter gentilis gentilis",6,4,
+							(NULL, "Vistu vanags", "Eurasian goshawk","Accipiter gentilis",6,4,
 							"Vanagus viegli atpazīt pēc to lidojuma: plivina spārnus – planē – plivina spārnus – planē.",
 							"Vistu vanags prot veikli manevrēt starp koku zariem, ēkām un citiem šķēršļiem."),
 
@@ -97,19 +97,19 @@ INSERT INTO birds VALUES(NULL, "Baltā Cielava", "White Wagtail","Motacilla alba
 							"Dzeņa mēle var būt pat trīs reizes garāka par dzeņa knābi. Šāda mēle ir lielisks palīgs, lai varētu veikli noķert kukaiņu kāpurus zem koka mizas.",
 							"Dižraibais dzenis ir biežāk sastopamā dzeņu suga Latvijā"),
                      
-							(NULL, "Melnā dzilna", "Black Woodpecker"," Dryocopus martius martius",7,4,
+							(NULL, "Melnā dzilna", "Black Woodpecker"," Dryocopus martius",7,4,
 							"Melnā dzilna ir lielākais Latvijas dzenis: divreiz lielāka par dižraibo dzeni.",
 							"Melno dzilnu dēvē par “lietussarga sugu”, jo tās kaltajos dobumos ligzdo vairākas retas un apdraudētas putnu sugas."),
 
-							(NULL, "Lauku balodis", "Common Wood Pigeon","Columba palumbus palumbus",8,4,
+							(NULL, "Lauku balodis", "Common Wood Pigeon","Columba palumbus",8,4,
 							"Lauku balodis ir vislielākais balodis Eiropā un visbiežāk sastopamais balodis Latvijā.",
 							"Šīs sugas nosaukums ir viegli maldinošs, jo lauku balodis tikai barojas uz laukiem, bet dzied un ligzdo mežos un parkos."),
 										
-							(NULL, "Mājas balodis", "Common Pigeon","Columba livia (domestica)",8,1,
+							(NULL, "Mājas balodis", "City Pigeon","Columba livia (domestica)",8,1,
 							"Mājas balodis ir pieradināta klinšu baloža forma: šis putns ir atkarīgs no cilvēka un tādēļ sastopams vien tur, kur ir cilvēks",
 							"Lielākā daļa putnu dzer paceļot galvu tā, lai šķidrums notecētu lejā, savukārt baloži ūdeni dzer iemērcot knābi ūdenī un iesūcot to tieši guzā. Guzā veidojas biezi izdalījumi, ko dēvē par putna pienu, ar ko var barot mazuļus."),
 										
-							(NULL, "Mājas zvirbulis", "House Sparrow","Passer domesticus domesticus",1,1,
+							(NULL, "Mājas zvirbulis", "House Sparrow","Passer domesticus",1,1,
 							"Mājas zvirbulim patīk ne tikai ūdenspeldes, bet arī smilšu peldes. Putns atrod smilšainu vietu, ietupstas iedobē, apbērdams spalvas ar smiltīm. Tas palīdz atbrīvoties no parazītiem.",
 							"Zvirbuļi ir sabiedriski putni – tiem patīk uzturēties bariņos, un ierasti tie dzīvo cilvēku tuvumā, neatkarīgi no tā, kurā pasaules vietā tie mīt."),
 
@@ -121,7 +121,7 @@ INSERT INTO birds VALUES(NULL, "Baltā Cielava", "White Wagtail","Motacilla alba
 							"Bezdelīga spēj barot mazuļus lidojumā.",
 							"Bezdelīgas gadu no gada mēdz atgriezties savā vecajā no dubļiem būvētajā ligzdā un atjaunot to. Ligzdo lielākoties telpās."),
 														
-							(NULL, "Mājas čurkste", "Common House Martin","Delichon urbicum",1,2,
+							(NULL, "Mājas čurkste", "Western House Martin","Delichon urbicum",1,2,
 							"Ligzdu mājas čurkste būvē no dubļiem un māla, bet tās iekšpusi izklāj ar spalvām un mīkstiem dabas “būvmateriāliem”.",
 							"Mājas čurkstes ligzda ir slēgta: ar mazu, šauru ieeju pie ligzdas augšmalas, savukārt bezdelīgas ligzdai, kas arī top no dubļiem, ir vaļēja augšmala."),
 
@@ -129,7 +129,7 @@ INSERT INTO birds VALUES(NULL, "Baltā Cielava", "White Wagtail","Motacilla alba
 							"Svīre ir labākā lidotāja pasaulē, jo gandrīz visu mūžu pavada lidojumā – tā gan ēd, gan dzer, gan vāc materiālus ligzdai, gan guļ lidojumā. Un lidojumā arī pārojas.",
 							"Ja svīre nosēžas zemē un vairs nevar pacelties spārnos, tā ir jāpamet gaisā, lai palīdzētu tai atsāktu lidojumu."),
 
-							(NULL, "Melnais mežastrazds", "Common Blackbird","Turdus merula",1,1,
+							(NULL, "Melnais mežastrazds", "Eurasian Blackbird","Turdus merula",1,1,
 							"Melnais mežastrazds mīt ne tikai mežos, bet arī dārzos. Tas ir ļoti mīlēts putns izcili skaistās un bagātīgās dziesmas – melodiskas svilpošanas – dēļ, īpaši pavasaros.",
 							"Neligzdo būrīšos, bet pats būvē ligzdu parasti ļoti zemu, piemēram, uz celma, nolūzuša koka stumbra, arī nelielā eglītē vai paegļu krūmā."),
 
@@ -187,7 +187,7 @@ INSERT INTO birds VALUES(NULL, "Baltā Cielava", "White Wagtail","Motacilla alba
 							"Krauķi ligzdo lielās kolonijās cilvēku tuvumā, veidojot vienā kokā pat vairākas ligzdas, ko ik gadu atjauno, kad atgriežas Latvijā no ziemošanas vietām."), 
 
 
-							(NULL, "Krauklis", "Northern Raven", "Corvus corax",1,1,
+							(NULL, "Krauklis", "Common Raven", "Corvus corax",1,1,
 							"Krauklim ir vienas no lielākajām smadzenēm putnu pasaulē.",
 							"Krauklis ir viens no galvenajiem meža “sanitāriem”, kas pēc ziemas “uzlasa” kritušos dzīvniekus. Ja krauklis atrod barību, vienuviet ātri sapulcējas arī citi kraukļi no tālas apkārtnes."),
 

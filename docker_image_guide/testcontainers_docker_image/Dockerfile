@@ -1,6 +1,6 @@
 
-#SELECT Base MySQL version
-FROM mysql:8.0.34
+#SELECT Base MySQL version .32.-- 8.0.34 failed on fly.io
+FROM mysql:8.0.32 
 
 ENV LANG=lv_LV.UTF-8
 

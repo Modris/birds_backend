@@ -1,4 +1,5 @@
-I created Docker Image for Birds backend project with buildpacks and not Dockerfile.
+I created Docker Image for Birds backend project with buildpacks and not Dockerfile. The Dockerfile uses the native build image.
+This is required for fly.io. It can only use Dockerfiles and not images.
 
 1) Open Docker Desktop (So Testcontainer tests pass when building JAR).
 2) In /Birds folder open CMD and execute the command: "./mvnw spring-boot:build-image"

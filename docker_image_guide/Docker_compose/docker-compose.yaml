@@ -1,0 +1,31 @@
+version: "3.9"
+services:
+
+#Birds App
+  birds:
+    depends_on:
+       mysqldb:
+         condition: service_healthy
+    image: "modrisl/birds:1.2.0"
+    container_name: "birds2"
+    ports: 
+      - 8080:8080
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysqldb:3306/putni?autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+    restart: always
+#MySQL Custom image with data inserted already for Birds app.    
+  mysqldb:
+    image: "modrisl/custom-mysql2:version1.1"
+    container_name: "mysql-custom30"
+    ports: 
+      - 3307:3306
+    environment:
+      MYSQL_DATABASE: putni
+      MYSQL_USER: jake
+      MYSQL_PASSWORD: kokagals123
+      MYSQL_ROOT_PASSWORD: rooter
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 10s
+      retries: 5
+      

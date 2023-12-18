@@ -72,3 +72,5 @@ build.xml
 *.bak
 
 *.toml.bak
+
+*.env

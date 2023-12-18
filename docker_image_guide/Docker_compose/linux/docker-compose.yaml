@@ -6,7 +6,7 @@ services:
     depends_on:
        mysqldb:
          condition: service_healthy
-    image: "modrisl/birds:1.2.0"
+    image: "modrisl/birds_linux:1.0.0"
     container_name: "birds2"
     ports: 
       - 8080:8080
@@ -17,7 +17,7 @@ services:
     restart: always
 #MySQL Custom image with data inserted already for Birds app.    
   mysqldb:
-    image: "modrisl/birds_mysql:1.0.0"
+    image: "modrisl/birds_mysql_linux:1.0.0"
     container_name: "birds_mysql"
     ports: 
       - 3307:3306
@@ -32,7 +32,7 @@ services:
       retries: 5
   
   vuejs:
-    image: "modrisl/birds_frontend:1.0.3"
+    image: "modrisl/birds_frontend_linux:1.0.3"
     container_name: "birds_frontend"
     ports:
       - 9090:9090
